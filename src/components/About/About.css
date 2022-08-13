@@ -21,7 +21,9 @@
     top: 38%;
     left: 50%;
     color: white;
-    transform: scale(2);
+    transform: scale(1.5);
+    text-align: left;
+    line-height: 25px;
 }
 
 @media all and (max-width : 700px){
