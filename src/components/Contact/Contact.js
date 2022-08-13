@@ -31,22 +31,22 @@ function Contact() {
     <div className='contact' id='contact'>
         <h1 className='contact_title' ref={contactRef}>CONTACT</h1>
         <div className="github">
-            <a href="https://github.com/anazbinnoushad">
+            <a href="https://github.com/AnaghaDipin">
                 <FontAwesomeIcon icon={ faGithub } className="contact_icon" />
             </a>
         </div>
         <div class="mail">
-            <a href="mailto:anazbinnoushad@gmail.com">
+            <a href="mailto:anaghadevikripa@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} className="contact_icon"/>
             </a>
         </div>
         <div className="linkedin">
-            <a href="https://www.linkedin.com/in/anaz-n-4560011bb/">
+            <a href="https://www.linkedin.com/in/anagha-anil-38480b229">
                 <FontAwesomeIcon icon={ faLinkedin } className="contact_icon"/>
             </a>
         </div>
         <div className="instagram">
-          <a href="https://www.instagram.com/anaz_bin_noushad/">
+          <a href="https://instagram.com/___anagha___anagha__/">
               <FontAwesomeIcon icon={ faInstagram } className="contact_icon"/>
           </a>
         </div>
