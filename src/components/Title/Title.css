@@ -1,0 +1,33 @@
+.title_name{
+    font-family: 'Licorice', cursive;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(6);
+    text-align: center;
+}
+.title_tag{
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-65%) scale(3);
+}
+
+@media all and (max-width : 700px){
+    .title_name{
+        font-family: 'Licorice', cursive;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%) scale(1);
+        font-size: medium;
+        text-align: center;
+    }
+    .title_tag{
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%,-60%) scale(1);
+        font-size: 0.8rem;
+    }
+}
